@@ -79,8 +79,24 @@
     background-size: cover;
     background-position: center;
 }
+
 #basket .basket-text {
     width: 40%;
+}
+
+#basket .basket-text button {
+    color: white;
+    background-color: black;
+    border-radius:50px;
+    padding: 10px 25px;
+    border: none;
+    font-size: 22px;
+    margin-top:15px ;
+}
+#basket .basket-text button:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
 }
 
 #Products .product-item {
@@ -88,12 +104,211 @@
     padding: 15px;
     float: left;
 }
+
 #Products .product-item img {
     width: 100%;
     vertical-align: middle;
 }
+
 #Products .product-item .pro-text {
     background: #f4f4f4;
     padding: 15px 0;
+    text-align: center;
 }
 
+#Products .product-item i {
+    margin: 5px 0;
+    color: yellow;
+}
+
+#Products .new ul {
+    text-align: center;
+    margin-top: 3em;
+}
+
+#Products .new li {
+    display: inline-block;
+    padding: 10px 15px
+}
+
+#Products .new li:first-child {
+    border: 1px solid black;
+}
+
+#Products .haw {
+    text-align: center;
+    margin-top: 4em;
+    padding: 0 20em;
+
+}
+
+#Products p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#Products h2 {
+    font-size: 35px;
+}
+#Products .short li:hover {
+    color: #ffae00;
+    cursor: pointer;
+}
+
+#shine {
+    text-align: center;
+    width: 100%;
+    margin: 5em 0;
+}
+
+#shine .after {
+    float: left;
+    width: 33.333%;
+}
+
+#hadi {
+    text-align: center;
+    padding: 5em 0;
+    background-color: #f6efe2;
+    height: 400px;
+
+}
+
+#hadi .baza h3 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#hadi .baza h1 {
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+#hadi .baza p {
+    padding: 0 20em;
+    margin-bottom: 40px;
+}
+
+#hadi .mail {
+    width: 530px;
+    border: 1px solid #b4b4b4;
+    border-radius: 50px;
+    height: 50px;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #d8d8d8;
+    font-size: 13px;
+}
+
+#hadi .konsert {
+    position: relative;
+}
+
+#hadi .konsert .submit {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    opacity: 1;
+    padding: 12px 10px;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 20em;
+}
+
+#hadi .konsert .submit:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+#latest {
+    text-align: center;
+    width: 100%;
+    height: 700px;
+}
+
+#latest h1 {
+    font-size: 30px;
+}
+
+#latest .parent h5 {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 15px 15em;
+}
+#latest .parent {
+    padding:3em 0;
+
+}
+#latest .child {
+    float: left;
+    width: 33.333%;
+    padding: 0 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+#latest .child img {
+    width: 100%;
+}
+
+#latest h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#latest .child p {
+    padding: 20px 0;
+    color: #222222;
+    font-size: 18px;
+}
+
+#latest h3 {
+    font-weight: 100;
+    color: #222222;
+}
+
+#latest h4:hover, #latest h2:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+#latest .brand {
+    margin:5em 0;
+    width: 100%;
+    height: 100px;
+}
+#latest .brand-img {
+    width: 20%;
+    float: left;
+    padding: 15px 0;
+    opacity: .6;
+    transition: all 0.3s ease 0s;
+}
+
+#latest .brand-img:hover {
+    opacity: 1;
+}
+
+#youtube {
+    width: 100%;
+    height: 500px;
+    /* background-color: black;
+    opacity: 0.8; */
+
+}
+
+#youtube .number {
+    float: left;
+    width: 20%;
+    padding: 4em 2em;
+}
+
+#youtube .number li {
+    list-style: none;
+}
+
+#youtube .number ul {
+    padding: 0 20px;
+}
